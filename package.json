@@ -3,11 +3,13 @@
   "version": "0.9.0",
   "description": "MySQL transport plugin for winston logger",
   "main": "lib/mysql_transport.js",
-  "bugs": "https://github.com/charles-zh/winston-mysql/issues",
+  "bugs": {
+    "url": "https://github.com/charles-zh/winston-mysql/issues"
+  },
   "dependencies": {
-    "mysql": "^2.14.1",
-    "winston": "~2.0.0",
-    "vows": "0.7.x"
+    "mysql2": "^1.5.3",
+    "vows": "0.7.x",
+    "winston": "~2.0.0"
   },
   "directories": {
     "test": "test"
@@ -28,8 +30,5 @@
   ],
   "author": "charles-zh",
   "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/charles-zh/winston-mysql/issues"
-  },
   "homepage": "https://github.com/charles-zh/winston-mysql#readme"
 }
