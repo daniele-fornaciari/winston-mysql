@@ -2,7 +2,7 @@
  * This is the test suit file for mysql_transport module
  */
 var winston = require('winston');
-var winston_mysql = require('../mysql_transport');
+var winston_mysql = require('../index');
 var vows = require('vows');
 var assert = require('assert');
 var MySql = require('mysql');

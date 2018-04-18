@@ -75,7 +75,7 @@ run tests
 -------------
 
 ```sh
-$ node mysql_transport_test.js
+$ node index.test.js
 ```
 
 authors
